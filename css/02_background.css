@@ -1,0 +1,40 @@
+/* 
+    background-color
+    opacity
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+    background (shorthand property)
+*/
+body{
+    background-color: hotpink;
+    
+}
+
+p{
+    /* opacity by percent */
+    opacity: 0.5;
+    /* opacity by rgba */
+    background: rgba(0, 128, 0, 0.3);
+}
+
+.back0{
+    background-image: url("paper.gif");
+}
+
+.back1{
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+    /*
+        repeat-x
+        repeat-y
+        no-repeat
+    */
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.back2{
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}

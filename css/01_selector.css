@@ -1,0 +1,21 @@
+/* tag */
+p{
+    color:red;
+}
+/* id */
+#id{
+    color:blue;
+}
+/* class */
+.class{
+    color:white;
+}
+/* other */
+*{
+    /* universal */
+    color:green;
+}
+h1, h2, p{
+    /* group */
+    color:hotpink;
+}

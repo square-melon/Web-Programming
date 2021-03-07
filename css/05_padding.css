@@ -1,0 +1,14 @@
+/* padding is inside border */
+/* 
+    length - specifies a padding in px, pt, cm, etc.
+    % - specifies a padding in % of the width of the containing element
+    inherit - specifies that the padding should be inherited from the parent element
+*/
+.padding{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    /* or */
+    padding: 50px 30px 50px 80px;
+}

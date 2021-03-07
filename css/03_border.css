@@ -1,0 +1,48 @@
+.border.styles{
+    border-style: dotted;
+    /* 
+        dotted - Defines a dotted border
+        dashed - Defines a dashed border
+        solid - Defines a solid border
+        double - Defines a double border
+        groove - Defines a 3D grooved border. The effect depends on the border-color value
+        ridge - Defines a 3D ridged border. The effect depends on the border-color value
+        inset - Defines a 3D inset border. The effect depends on the border-color value
+        outset - Defines a 3D outset border. The effect depends on the border-color value
+        none - Defines no border
+        hidden - Defines a hidden border
+    */
+}
+.border.specified-widths{
+    border-style: solid;
+    /* all sides */
+    border-width: 5px;
+    /* top&bottom:5 side:20 */
+    border-width: 5px 20px;
+    /* top right bottom left */
+    border-width: 5px 6px 7px 8px;
+}
+.border.side{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+
+    border-top-width: 10px;
+    border-left-color: pink;
+}
+.border.specified-sides{
+    /* top&bottom side */
+    border-style: dotted solid;
+    /* top right left bottom */
+    border-style: dotted solid dashed groove;
+}
+.border.shorthand{
+    border: 5px solid red;
+
+    border-left: 6px solid red;
+    background-color: lightgrey;
+}
+.border.rounded{
+    border-radius: 5px;
+}
