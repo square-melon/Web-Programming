@@ -1,0 +1,33 @@
+.text-color{
+    color:white;
+}
+.text-align{
+    text-align: center;
+}
+.text-decoration{
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: none;
+}
+.text-transform{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+.text-space{
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 0.5;
+    word-spacing: 10px;
+    /* no auto change line */
+    white-space: nowrap;
+}
+.text-shadow{
+    /* horizontal vertical */
+    text-shadow: 2px 2px;
+    /* horizontal vertical color */
+    text-shadow: 2px 2px red;
+    /* horizontal vertical blur color */
+    text-shadow: 2px 2px 5px red;
+}

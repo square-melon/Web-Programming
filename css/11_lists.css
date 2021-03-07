@@ -1,0 +1,49 @@
+/* list style */
+ul.a {
+    list-style-type: circle;
+}
+  
+ul.b {
+    list-style-type: square;
+}
+  
+ol.c {
+    list-style-type: upper-roman;
+}
+  
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+/* the dot position */
+ul.a {
+    list-style-position: outside;
+}
+  
+ul.b {
+    list-style-position: inside;
+}
+
+/* remove the default settings */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* shorthand list */
+/* 
+    list-style-type (if a list-style-image is specified, the value of this property will be displayed if the image for some reason cannot be displayed)
+    list-style-position (specifies whether the list-item markers should appear inside or outside the content flow)
+    list-style-image (specifies an image as the list item marker) 
+*/
+ul {
+    list-style: square inside url("sqpurple.gif");
+}
+
+/* backup style */
+ul{
+    list-style-image:url("img_marker.png");
+    list-style-type:circle;
+    list-style-position: inside;
+}

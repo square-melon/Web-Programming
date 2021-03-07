@@ -1,0 +1,33 @@
+.font{
+    /* left to right */
+    font-family: "Times New Roman", Times, serif;
+    /* 
+        websave fonts:
+        Arial (sans-serif)
+        Verdana (sans-serif)
+        Helvetica (sans-serif)
+        Tahoma (sans-serif)
+        Trebuchet MS (sans-serif)
+        Times New Roman (serif)
+        Georgia (serif)
+        Garamond (serif)
+        Courier New (monospace)
+        Brush Script MT (cursive)
+    */
+    font-style: italic;
+    /* 
+        normal - The text is shown normally
+        italic - The text is shown in italics
+        oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+    */
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.font-size{
+    font-size: 100%;
+    font-size: 2.5em;
+    font-size: 30px;
+}
+.font-shorthand{
+    font:italic 20px/30px small-caps bold Arial, sans-serif;
+}
