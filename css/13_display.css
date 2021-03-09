@@ -1,0 +1,22 @@
+/* 
+block:
+    <div>
+    <h1> - <h6>
+    <p>
+    <form>
+    <header>
+    <footer>
+    <section>
+inline:
+    <span>
+    <a>
+    <img>
+*/
+.display{
+    display: none;
+    /* block, inline, flex... */
+}
+.visibility{
+    visibility: hidden;
+    /* visible, collapse... */
+}

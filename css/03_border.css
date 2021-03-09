@@ -12,6 +12,8 @@
         none - Defines no border
         hidden - Defines a hidden border
     */
+    border-collapse: collapse;
+    /* collapse with other border */
 }
 .border.specified-widths{
     border-style: solid;
